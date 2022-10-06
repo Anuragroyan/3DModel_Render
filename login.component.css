@@ -1,0 +1,54 @@
+.loginform {
+   width:450px;
+   height:350px;
+   background-color: aliceblue;
+   padding: 34px;
+   float:left;
+   margin-top: 44px;
+   margin-left: 54px;
+}
+
+label {
+    padding:23px;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1 {
+    margin-left:134px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+input[type=text], input[type=password] {
+    width: 250px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;  
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+form {
+    padding:34px;
+    margin-left:95px;
+}
+
+hr {
+    width:346px;
+}
+
+button {
+    text-align: center;
+    margin-left: 84px;
+    width:123px;
+}
