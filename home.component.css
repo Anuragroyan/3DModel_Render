@@ -1,0 +1,71 @@
+ 
+ .md {
+    margin-left:23px;
+    font-size:36px;
+} 
+
+.listview {
+    margin-left: 23px;  
+}
+
+
+#md2 {
+    font-size:26px;
+    margin-left:1256px; 
+}
+
+.model {
+    width:1496px;
+    height: 50px;
+    background-color: lightslategrey;
+    margin-top: 33px;
+    margin-left: 12px;
+    border-radius: 10px;
+    margin-bottom: -23px;
+    scroll-behavior: smooth;
+}
+
+.searchbar {
+    margin-top: 33px;
+    margin-left:42px; 
+    margin-bottom: -42px;
+  }
+  
+  #find {
+      margin-left:12px;
+      font-size: 23px;
+      margin-right: 22px;
+  }
+  
+  #search {
+      margin-left:-139px;
+      margin-right:-15px;
+      padding-top:42px;
+      font-size: 23px;
+  }
+  
+  #schbtn {
+     margin-right: 23px;
+  }
+  
+  .btns {
+      margin-left: 1219px;
+      margin-top:-36px;
+  }
+  
+  #list {
+     margin-right:17px;
+     float:right;
+     font-size: 33px;
+     width:73px;
+     margin-bottom: 12px;
+  }
+  
+  #slist {
+      margin-left:144px;
+      float: left;
+      font-size: 33px; 
+      width:73px;
+      margin-bottom: 12px;
+  }
+  

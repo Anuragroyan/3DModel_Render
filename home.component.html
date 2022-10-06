@@ -1,0 +1,14 @@
+<div class="searchbar">
+    <input type="text" name="searchbar"  [(ngModel)]="searchText"  placeholder="  Search Here For The 3D Models " id="schbtn" size="70"/>
+    <span  id="search"><i class="fa fa-search" aria-hidden="true" id="find">Search</i></span>
+  </div>
+  <div class="btns">
+    <button name="hidden" id="list"><a [routerLink]="'/'"><i class="fa fa-list" aria-hidden="true"></i></a></button> <button name="visible"  id="slist"><a [routerLink]="'/listview'"><i class="fa fa-th" aria-hidden="true"></i></a></button>
+  </div>
+<table>
+<div class="listview">
+<tr *ngFor="let model of models | filter:searchText">
+ <td><div class="model"><span class="md">{{model.name}}</span><span><a [routerLink]="'/listview'"><i class="fa fa-chevron-right" aria-hidden="true" id="md2"></i></a></span></div></td>
+</tr>
+</div>
+</table>
