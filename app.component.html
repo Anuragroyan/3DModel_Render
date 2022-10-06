@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 360px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+</head>
+<body>
+  
+<div class="sidenav">
+  <div>
+    <p id="header">Fabrik</p>
+  </div>
+  <div class="login">
+    <button name="Login" class="btn btn-dark" id="login" type="button"><a [routerLink]="'/main'"><i class="fa fa-user" aria-hidden="true"></i> Login</a></button>
+   </div>
+   <div class="register">
+    <button name="Register" class="btn btn-dark" id="register" type="button"><a [routerLink]="'/'"><i class="fa fa-home" aria-hidden="true"></i> Home</a></button>
+   </div>
+</div>
+<div class="container">
+  <div id="heading">
+    <h2 style="color:rgba(212, 212, 212, 0.977)">Community</h2>
+    <h3 style="color:rgba(212, 212, 212, 0.977)">Ideas of the open world</h3>
+  </div>
+  <!-- <div class="searchbar">
+    <input type="text" name="searchbar"  [(ngModel)]="searchText"  placeholder="  Search Here For The 3D Models " id="schbtn" size="70"/>
+    <span  id="search"><i class="fa fa-search" aria-hidden="true" id="find">Search</i></span>
+  </div>
+  <div class="btns">
+    <button name="hidden" id="list"><a routerLink=""><i class="fa fa-list" aria-hidden="true"></i></a></button> <button name="visible"  id="slist"><a routerLink="/listview"><i class="fa fa-th" aria-hidden="true"></i></a></button>
+  </div> -->
+ <router-outlet></router-outlet>
+  <table>
+    <div class="listview">
+       <app-home></app-home>
+    <!-- <tr *ngFor="let model of models | filter:searchText">
+     <td><div class="model"><span class="md">{{model.name}}</span><span><a href=""><i class="fa fa-chevron-right" aria-hidden="true" id="md2"></i></a></span></div></td>
+   </tr> -->
+  </div>
+  </table>
+</div>
+
+</body>
+</html>

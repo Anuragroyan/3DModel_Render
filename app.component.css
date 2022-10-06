@@ -1,0 +1,66 @@
+.login {
+    margin-left:124px;
+    margin-top: 434px;
+    margin-bottom: 23px;
+ }
+ 
+ .register {
+     margin-left:124px;
+     
+ }
+ 
+ #header {
+    margin-top: 54px;
+    margin-left: 119px;
+    font-size: 37px;
+    color: rgba(145, 17, 230, 0.831);
+    font-weight: bolder;
+    position: fixed;
+ }
+ 
+ 
+ h2 {
+     font-size: 37px;
+     padding-top: 63px;
+     margin-left: 656px;
+     font-weight: bolder;
+ }
+ 
+ h3 {
+     font-size: 27px;
+     padding-top: 46px;
+     margin-left: 656px;
+     font-weight: bolder;
+ }
+ 
+ #heading {
+     background-color: black;
+     height:327px;
+     width:1598px;
+     background-image:url("../assets/model.jpg");
+     background-size: 1927px 1927px;
+     background-repeat: no-repeat;
+ }
+ 
+
+ .listview {
+     margin-left: 53px;
+ }
+ 
+ .container {
+    height: auto;
+    position:sticky; 
+ }
+ 
+ body {
+     height:100%;
+     padding-bottom: 53px;
+     position:static;  
+     scroll-behavior: inherit;
+     overflow:auto;
+ }
+ 
+ ul {
+     list-style: none;
+ }
+ 
