@@ -1,0 +1,49 @@
+.cards {
+    width:450px;
+    height:450px;
+    background-color: aliceblue;
+    padding: 34px;
+    display: flex;
+    float:left;
+    margin-top: 44px;
+    margin-left: 194px;
+}
+
+.search1 {
+    margin-top: 33px;
+    margin-left: 596px;
+    border-radius: 9px;
+}
+
+#find1 {
+   margin-left:-35px;
+}
+
+::placeholder {
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: uppercase;
+}
+
+h1 {
+   margin-left:-274px;
+   margin-top:344px;
+   text-transform: capitalize;
+   font-size: 25px;
+   text-align: center;
+}
+
+p {
+    margin-top:294px;
+    text-transform: capitalize;
+    font-size: 25px; 
+    margin-left:-93px;
+}
+
+img {
+    width:320px;
+    height:250px;
+    margin-left: 33px;
+    margin-top: 23px;
+    border-radius: 35px;
+}

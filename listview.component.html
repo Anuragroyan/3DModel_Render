@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <div>
+        <input type="text" class="search1" placeholder=" Search Here For The 3D Models "  [(ngModel)]="searchText"   size="40"/>
+        <span><i class="fa fa-search" aria-hidden="true" id="find1"></i></span>
+    </div>
+    <div *ngFor="let model of models  | filter:searchText">
+        <div class="cards">
+            <img src="{{model.imageUrl}}"/>
+            <h1>{{model.name}}</h1>
+            <p>Name: {{model.pattern}}</p>
+        </div>
+    </div>
+    <app-angular-three style="float:left;"></app-angular-three>
+    <app-angular-three1  style="float:right;"></app-angular-three1>
+   
+</body>
+</html>
